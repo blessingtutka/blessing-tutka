@@ -978,7 +978,7 @@ Info Style
 .form-check-input[type=checkbox] {
   background: var(--card-bg-color);
   border: 2px solid var(--white-color);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-medium);
   box-shadow: none;
   outline: none;
   width: 100%;
