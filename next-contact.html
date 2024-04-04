@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="A Portfolio">
+        <meta name="author" content="Blessing Tutka">
+
+        <title>Blessing Tutka Portfolio</title>
+
+        <link rel="icon" type="image/png" href="images/favio-ico.png">
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+
+        <link href="css/multi-step-form.css" rel="stylesheet">
+
+        <link href="css/check-box.css" rel="stylesheet">
+        
+        
+    </head>
+    
+    <body>  
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+                    <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                        <h2 id="heading">Get in touch</h2>
+                        <p>If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below or send an email to <b>blessingtutka298@gmail.com</b> and ~let's talk.</p>
+                        <form id="msform" class="contact-form">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="active" id="name"><strong>Name</strong></li>
+                                <li id="email"><strong>Email</strong></li>
+                                <li id="service"><strong>Service</strong></li>
+                                <li id="message"><strong>Message</strong></li>
+                            </ul>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> <br> 
+                            <!-- fieldsets -->
+                            <fieldset>
+                                <div class="form-card">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Name <sup class="text-danger">*</sup></h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 1 - 4</h2>
+                                        </div>
+                                    </div> 
+                                    <div class="form-floating">
+                                        <input type="text" name="name" class="form-control" placeholder="Fill with your name" required="">
+                                        <label for="floatingInput">Fill with your name</label>
+                                    </div> 
+
+                                </div> 
+                                <input type="button" name="next" class="next action-button" value="Next" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Email <sup class="text-danger">*</sup></h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 2 - 4</h2>
+                                        </div>
+                                    </div> 
+                                    <div class="form-floating">
+                                        <input type="email" name="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Now your email address" required="">
+                                        
+                                        <label for="floatingInput">Now your email address</label>
+                                    </div> 
+
+                                </div> 
+                                <input type="button" name="next" class="next action-button" value="Next" /> 
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">What can I do for you</h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 3 - 4</h2>
+                                        </div>
+                                    </div> 
+                                    <div class="d-flex justify-content-around align-items-center">
+                                        <div class="checkbox-wrapper-16">
+                                          <label class="checkbox-wrapper">
+                                            <input type="checkbox" class="checkbox-input" />
+                                            <span class="checkbox-tile">
+                                              <span class="checkbox-icon bi-globe"></span>
+                                              <span class="checkbox-label">Website</span>
+                                            </span>
+                                          </label>
+                                        </div>
+                                        <div class="checkbox-wrapper-16">
+                                          <label class="checkbox-wrapper">
+                                            <input type="checkbox" class="checkbox-input" />
+                                            <span class="checkbox-tile">
+                                              <span class="checkbox-icon bi-wordpress"></span>
+                                              <span class="checkbox-label">Wordpress</span>
+                                            </span>
+                                          </label>
+                                        </div>
+                                        <div class="checkbox-wrapper-16">
+                                          <label class="checkbox-wrapper">
+                                            <input type="checkbox" class="checkbox-input" />
+                                            <span class="checkbox-tile">
+                                              <span class="checkbox-icon bi-pc"></span>
+                                              <span class="checkbox-label">BaaS</span>
+                                            </span>
+                                          </label>
+                                        </div>
+                                        <div class="checkbox-wrapper-16">
+                                          <label class="checkbox-wrapper">
+                                            <input type="checkbox" class="checkbox-input" />
+                                            <span class="checkbox-tile">
+                                              <span class="checkbox-icon bi-google"></span>
+                                              <span class="checkbox-label">SEO</span>
+                                            </span>
+                                          </label>
+                                        </div>
+                                    </div>
+
+                                </div> 
+                                <input type="button" name="next" class="next action-button" value="Next" /> 
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h2 class="fs-title">Message <sup class="text-danger">*</sup>:</h2>
+                                        </div>
+                                        <div class="col-5">
+                                            <h2 class="steps">Step 4 - 4</h2>
+                                        </div>
+                                    </div> 
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Now write your awesome message"></textarea>
+                                        <label for="floatingTextarea">Now write your awesome message :)</label>
+                                    </div>
+
+                                </div> 
+                                <input type="submit" name="submit" class="action-button" value="Submit" /> 
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <div class="copyright-text-wrap">
+                            <p class="mb-0">
+                                <span class="copyright-text">Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="#">Blessing Tutka</a> Portfolio. All rights reserved.</span>
+                                Design: 
+                                <a rel="sponsored" href="https://blessing-tutka.com" target="_blank">Blessing Tutka</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/multi-step-form.js"></script>
+
+    </body>
+</html>
